@@ -56,3 +56,20 @@ All gene inference, HVG PCC, GPC PCC
 ```
 python3 inference.py -l [PATH/TO/YOUR/TRAINING/LOG/DIR]
 ```
+
+## License
+
+This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**. For full details, see the [LICENSE](LICENSE) file.
+
+## Citation
+
+If you find **HistoPrism** or our **Gene Pathway Coherence (GPC)** benchmark useful in your research, please consider citing our paper:
+
+```bibtex
+@inproceedings{Hu2026HistoPrism,
+  title={{HistoPrism}: Unlocking Functional Pathway Analysis from Pan-Cancer Histology via Gene Expression Prediction},
+  author={Hu, Susu and Zeng, Qinghe and Bhasker, Nithya and Kather, Jakob Nicholas and Speidel, Stefanie},
+  booktitle={The Fourteenth International Conference on Learning Representations (ICLR)},
+  year={2026},
+  url={https://github.com/susuhu/HistoPrism}
+}
