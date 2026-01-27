@@ -15,14 +15,14 @@ HistoPrism is an efficient transformer architecture that predicts spatial gene e
 HistoPrism achieves competitive performance on standard High-Variance Gene (HVG) metrics while demonstrating superior capability in recovering biologically meaningful signals. As shown below, our model outperforms baselines on the **Gene Pathway Coherence (GPC)** benchmark, successfully recovering coherent transcriptomic patterns across both GO terms and Hallmark pathways.
 
 <p align="center">
-  <img src="figures/GO_pcc_comparison_scatter_two_split.png" width="30%" />
-  <img src="figures/hallmark_pcc_comparison_scatter_two_split.png" width="30%" /> 
+  <img src="figures/GO_pcc_comparison_scatter_two_split.png" width="45%" />
+  <img src="figures/hallmark_pcc_comparison_scatter_two_split.png" width="45%" /> 
 </p>
 
 In addition to biological accuracy, HistoPrism is designed for **computational efficiency**. It delivers state-of-the-art results with significantly lower resource requirements than generative baselines, enabling resource-constrained private institutes to fine-tune on a small ST dataset and scale inference to larger cohorts.
 
 <p align="center">
-  <img src="figures/HistoPrism_model_efficiency_2-8.png" width="60%" />
+  <img src="figures/HistoPrism_model_efficiency_2-8.png" width="80%" />
 </p>
 
 
