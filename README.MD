@@ -1,5 +1,5 @@
 
-# HistoPrism: Unlocking Functional Pathway Analysis from Pan-Cancer Histology via Gene Expression Prediction
+## HistoPrism: Unlocking Functional Pathway Analysis from Pan-Cancer Histology via Gene Expression Prediction
 
 HistoPrism is an efficient transformer architecture that predicts spatial gene expression profiles directly from H&E histology slides. It addresses key limitations in prior work regarding generalizability and biological interpretation.
 
@@ -8,6 +8,7 @@ HistoPrism is an efficient transformer architecture that predicts spatial gene e
 - **Gene Pathway Coherence (GPC) Benchmark**: We move beyond standard High-Variance Gene (HVG) metrics, which neglect biologically critical low-variance genes due to skewed distributions. We propose GPC, a novel framework that evaluates performance on functional biological pathways, demonstrating that our model recovers coherent, clinically relevant transcriptomic patterns across the full gene spectrum.
 
 ![architecture](figures/HistoPrism_no_PE.png)
+
 
 
 ## Performance
@@ -24,6 +25,11 @@ In addition to biological accuracy, HistoPrism is designed for **computational e
 <p align="center">
   <img src="figures/HistoPrism_model_efficiency_2-8.png" width="80%" />
 </p>
+
+
+##  TODOs
+
+- update trainding code
 
 
 ## Quick Start
