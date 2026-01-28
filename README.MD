@@ -29,8 +29,10 @@ In addition to biological accuracy, HistoPrism is designed for **computational e
 
 ##  TODOs
 
-- update trainding code
+- upload training code
 
+## 💡 Optimization Tip
+While we trained HistoPrism on a comprehensive 38k gene panel to ensure a fair benchmark in the paper, we recommend training on a focused target gene panel for practical applications. Narrowing the gene set concentrates the model's capacity on your specific biological targets, often yielding sharper predictions.
 
 ## Quick Start
 ### Data Preprocessing
