@@ -73,5 +73,5 @@ If you find **HistoPrism** or our **Gene Pathway Coherence (GPC)** benchmark use
   author={Hu, Susu and Zeng, Qinghe and Bhasker, Nithya and Kather, Jakob Nicholas and Speidel, Stefanie},
   booktitle={The Fourteenth International Conference on Learning Representations (ICLR)},
   year={2026},
-  url={https://github.com/susuhu/HistoPrism}
+  url={https://arxiv.org/abs/2601.21560}
 }
