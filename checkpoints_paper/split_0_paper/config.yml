@@ -1,0 +1,38 @@
+model: HistoPrism 
+debug: false
+PFM_name: uni
+gene_emb_dim:
+batch_size: 1
+lr: 5e-5
+weight_decay: 0.01
+dropout_rate: 0.1
+transformer_heads: 8
+transformer_layers: 2
+num_epochs: 5000
+hidden_dim: 256
+early_stop_patience: 30
+graph_config:
+  conv_type: null
+  n_conv_layers: 0
+  knn: 8
+  knn_type: spatial
+  gene_conv_flag: true
+onco_onehot_dim: 29
+conditioning_strategy: cross_attention # film, cross_attention
+cross_attn_heads: 4
+loss_config:
+  rnd_predictor_loss_weight: 0.
+  exploration_reward_weight: 0.
+  rnd_out_dim:
+  gene_loss_weight: 1.0
+paths_config:
+  metadata_path: 
+    /mnt/ceph/tco/TCO-Staff/Homes/hususu/Data/hest_data/HEST_v1_1_0.csv
+  gene_list_path: data/gene_panel/stpath_genes.yaml
+  patches_path: /mnt/ceph/tco/TCO-Staff/Homes/hususu/Data/hest_data/patches/
+  root: /mnt/ceph/tco/TCO-Staff/Homes/hususu/Data/hest_data/
+  wsis_path: /mnt/ceph/tco/TCO-Staff/Homes/hususu/Data/hest_data/wsis/
+  splits_path: data/split_0
+  st_path: /mnt/ceph/tco/TCO-Staff/Homes/hususu/Data/hest_data/st/
+comments: HistoPrism split 0 ckpt
+wandb_project_name: HistoPrism

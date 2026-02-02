@@ -1,0 +1,5 @@
+sample_id,patches_path,expr_path
+INT19,patches/INT19.h5,adata/INT19.h5ad
+INT18,patches/INT18.h5,adata/INT18.h5ad
+INT17,patches/INT17.h5,adata/INT17.h5ad
+INT16,patches/INT16.h5,adata/INT16.h5ad

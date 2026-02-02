@@ -10,10 +10,9 @@ HistoPrism is an efficient transformer architecture that predicts spatial gene e
 ![architecture](figures/HistoPrism_no_PE.png)
 
 
-
 ## Performance
 
-HistoPrism achieves competitive performance on standard High-Variance Gene (HVG) metrics while demonstrating superior capability in recovering biologically meaningful signals. As shown below, our model outperforms baselines on the **Gene Pathway Coherence (GPC)** benchmark, successfully recovering coherent transcriptomic patterns across both GO terms and Hallmark pathways.
+HistoPrism achieves *competitive performance on standard High-Variance Gene (HVG) metrics* while demonstrating superior capability in recovering biologically meaningful signals. As shown below, our model *outperforms baselines* on the **Gene Pathway Coherence (GPC)** benchmark, successfully recovering coherent transcriptomic patterns across both GO terms and Hallmark pathways.
 
 <p align="center">
   <img src="figures/GO_pcc_comparison_scatter_two_split.png" width="45%" />
@@ -27,9 +26,6 @@ In addition to biological accuracy, HistoPrism is designed for **computational e
 </p>
 
 
-##  TODOs
-
-- upload training code
 
 ## 💡 Optimization Tip
 While we trained HistoPrism on a comprehensive 38k gene panel to ensure a fair benchmark in the paper, we recommend training on a focused target gene panel for practical applications. Narrowing the gene set concentrates the model's capacity on your specific biological targets, often yielding sharper predictions.
@@ -37,9 +33,11 @@ While we trained HistoPrism on a comprehensive 38k gene panel to ensure a fair b
 ## Quick Start
 ### Data Preprocessing
 
-- Download HEST1k from huggingface https://huggingface.co/datasets/MahmoodLab/hest
-- our preprocessed data with [uni](https://github.com/mahmoodlab/UNI) is in `data/processed_data/uni` with names `[sample_id]_embeddings.pt` which contains barcodes and correspongding uni features.
-- data split is provided in `data/data_split_0`
+- Download HEST1k from huggingface https://huggingface.co/datasets/MahmoodLab/hest. to `data/HEST1K` or [PATH/TO/YOUR/HEST1K]
+- Please follow respective pathology foundation model (PFM) repositories for preprocessing. For example, preprocessed data with PFM [uni](https://github.com/mahmoodlab/UNI) is in `data/sample_processed_HEST1K/uni` with names `[sample_id]_embeddings.pt` which contains barcodes and correspongding uni features. This path is referred in `utils/custom_dataset.py` for dataloading.
+- Also download hest_bench https://huggingface.co/datasets/MahmoodLab/hest-bench and put it in `data/hest_bench` [PATH/TO/YOUR/hest_bench] for fixed held-out test set and HVG-50 genes list
+- Data split is merged from hest-bench and provided in `data/split_0` and `data/split_1`.
+
 
 Following code could be used to preprocecss HEST1k dataset.
 
@@ -47,17 +45,60 @@ Following code could be used to preprocecss HEST1k dataset.
 python3 utils/pfm_preprocesing.py
 ```
 
-### Training
+Folder structure:
+```text
+.
+├── configs
+│   └── training_config.yml
+├── checkpoints_paper # pretrained weights from the paper
+│   ├── split_0_paper
+│   │   ├── ckpt # pretrained_model_weights
+│   │   └── config.yml
+│   └── split_1_paper
+│       ├── ckpt
+│       └── config.yml
+├── data
+│   ├── Gene_Ontology # GO and Hallmark pathways
+│   ├── gene_panel
+│   ├── hest_bench # downloaded hest_bench
+│   ├── HEST1K # downloaded HEST1K raw data
+│   ├── sample_processed_HEST1K # preprocessed WSIs with PFMs
+│   ├── split_0
+│   └── split_1
+├── models
+│   └── HistoPrIsm.py
+├── utils
+│   ├── custom_dataset.py
+│   ├── hest_utils.py
+│   ├── other_utils.py
+│   ├── pfm_preprocesing.py
+│   └── training_utils.py
+├── inference.py
+└── train.py
 ```
-python3 train.py -f configs/training_config_regressor.yml
+
+### Training
+
+```
+python3 train.py -f configs/training_config.yml
 ```
 
 ### Inference
-All gene inference, HVG PCC, GPC PCC
+All gene inference, HVG-50, hallmark pathways and GO pathways Pearson Corrrelation Coefficients (PCC)
 
 ```
-python3 inference.py -l [PATH/TO/YOUR/TRAINING/LOG/DIR]
+python3 inference.py -l training_log/[PATH/TO/YOUR/TRAINING/LOG/DIR]
 ```
+
+### Checkpoints from the paper
+Pretrained model weights in the paper can be downloaded from [hugginface](https://huggingface.co/HuSusu/HistoPrism). You might need to rename it to best_model.pt if you run the inference code directly.
+
+Direct inference can be done via:
+
+```
+python3 inference.py -l checkpoints_paper/split_0_paper
+```
+
 
 ## License
 
@@ -70,7 +111,7 @@ If you find **HistoPrism** or our **Gene Pathway Coherence (GPC)** benchmark use
 ```bibtex
 @inproceedings{Hu2026HistoPrism,
   title={{HistoPrism}: Unlocking Functional Pathway Analysis from Pan-Cancer Histology via Gene Expression Prediction},
-  author={Hu, Susu and Zeng, Qinghe and Bhasker, Nithya and Kather, Jakob Nicholas and Speidel, Stefanie},
+  author={Hu, Susu and Zeng, Qinghe and Bhasker, Nithya and Kather, Jakob Nikolas and Speidel, Stefanie},
   booktitle={The Fourteenth International Conference on Learning Representations (ICLR)},
   year={2026},
   url={https://arxiv.org/abs/2601.21560}

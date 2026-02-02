@@ -1,0 +1,12 @@
+{   
+    "CCRCC": 0,
+    "PAAD": 1,
+    "SKCM": 2,
+    "PRAD": 3,
+    "IDC": 4,
+    "LYMPH_IDC": 5,
+    "COAD": 6,
+    "LUNG": 7,
+    "HCC": 8,
+    "READ": 9
+}

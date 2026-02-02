@@ -1,0 +1,9 @@
+sample_id,patches_path,expr_path
+MEND162,patches/MEND162.h5,adata/MEND162.h5ad
+MEND161,patches/MEND161.h5,adata/MEND161.h5ad
+MEND160,patches/MEND160.h5,adata/MEND160.h5ad
+MEND159,patches/MEND159.h5,adata/MEND159.h5ad
+MEND158,patches/MEND158.h5,adata/MEND158.h5ad
+MEND157,patches/MEND157.h5,adata/MEND157.h5ad
+MEND156,patches/MEND156.h5,adata/MEND156.h5ad
+MEND154,patches/MEND154.h5,adata/MEND154.h5ad

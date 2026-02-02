@@ -1,0 +1,4 @@
+sample_id,patches_path,expr_path
+TENX99,patches/TENX99.h5,adata/TENX99.h5ad
+NCBI785,patches/NCBI785.h5,adata/NCBI785.h5ad
+NCBI783,patches/NCBI783.h5,adata/NCBI783.h5ad

@@ -1,0 +1,498 @@
+Unnamed: 0,sample_id,organ,oncotree_code,disease_state,st_technology,oncotree_code_filled
+0,NCBI883,Lung,,Healthy,Xenium,Healthy
+1,SPA114,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+2,NCBI638,Brain,EPM,Cancer,Visium,EPM
+3,NCBI759,Skin,CSCC,Cancer,Spatial Transcriptomics,CSCC
+4,NCBI818,Uterus,,Diseased,Visium,Diseased_Unspecified
+5,NCBI682,Lymph node,LYMPH_IDC,Cancer,Visium,LYMPH_IDC
+6,SPA1,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+7,NCBI464,Skin,,Diseased,Visium,Diseased_Unspecified
+8,SPA142,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+9,NCBI567,Kidney,,Diseased,Visium,Diseased_Unspecified
+10,MEND2,Prostate,,Cancer,Spatial Transcriptomics,Cancer_Unspecified
+11,SPA87,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+12,MISC3,Brain,,Healthy,Visium,Healthy
+13,NCBI486,Skin,,Diseased,Visium,Diseased_Unspecified
+14,MEND34,Bowel,,Healthy,Visium,Healthy
+15,MEND36,Bowel,,Healthy,Visium,Healthy
+17,NCBI466,Skin,,Diseased,Visium,Diseased_Unspecified
+18,NCBI761,Skin,CSCC,Cancer,Spatial Transcriptomics,CSCC
+19,MISC4,Brain,,Healthy,Visium,Healthy
+20,SPA131,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+21,MISC8,Brain,,Healthy,Visium,Healthy
+22,MISC110,Heart,,Healthy,Visium,Healthy
+23,TENX94,Breast,ILC,Cancer,Xenium,ILC
+24,NCBI811,Uterus,,Healthy,Visium,Healthy
+25,MISC34,Bowel,COAD,Cancer,Visium,COAD
+26,NCBI815,Uterus,,Diseased,Visium,Diseased_Unspecified
+27,NCBI517,Skin,,Diseased,Visium,Diseased_Unspecified
+28,NCBI491,Skin,,Diseased,Visium,Diseased_Unspecified
+29,MISC32,Lung,,Treated,Visium,Treated_Unspecified
+30,INT15,Kidney,CCRCC,Cancer,Visium,CCRCC
+31,MISC47,Bowel,COAD,Cancer,Visium,COAD
+32,NCBI467,Skin,,Diseased,Visium,Diseased_Unspecified
+33,NCBI631,Brain,EPM,Cancer,Visium,EPM
+34,SPA40,Heart,,Healthy,Spatial Transcriptomics,Healthy
+35,TENX31,Brain,GBM,Cancer,Visium,GBM
+36,NCBI468,Skin,,Diseased,Visium,Diseased_Unspecified
+37,MEND49,Kidney,,Healthy,Visium,Healthy
+38,NCBI708,Kidney,,Diseased,Visium,Diseased_Unspecified
+39,TENX141,Lung,LUNG,Cancer,Xenium,LUNG
+40,MISC43,Bowel,COAD,Cancer,Visium,COAD
+41,MEND162,Prostate,PRAD,Cancer,Visium,PRAD
+42,MEND16,Prostate,,Cancer,Spatial Transcriptomics,Cancer_Unspecified
+43,SPA123,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+44,SPA2,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+45,SPA135,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+46,TENX117,Skin,SKCM,Cancer,Xenium,SKCM
+47,SPA105,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+48,MISC29,Lung,,Treated,Visium,Treated_Unspecified
+49,NCBI771,Eye,ACYC,Cancer,Visium,ACYC
+50,SPA149,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+51,SPA93,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+52,SPA69,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+53,INT26,Prostate,PRAD,Cancer,Visium,PRAD
+54,SPA102,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+55,SPA43,Heart,,Healthy,Spatial Transcriptomics,Healthy
+56,NCBI637,Brain,EPM,Cancer,Visium,EPM
+57,NCBI861,Lung,,Diseased,Xenium,Diseased_Unspecified
+58,NCBI833,Liver,,Diseased,Visium,Diseased_Unspecified
+59,NCBI714,Kidney,,Healthy,Visium,Healthy
+60,SPA111,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+61,TENX105,Kidney,PRCC,Cancer,Xenium,PRCC
+62,SPA121,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+63,MEND4,Prostate,,Cancer,Spatial Transcriptomics,Cancer_Unspecified
+64,NCBI539,Kidney,,Treated,Visium,Treated_Unspecified
+65,NCBI3,Cervix,,Diseased,Visium,Diseased_Unspecified
+66,TENX72,Lung,LNET,Cancer,Visium,LNET
+67,TENX71,Kidney,,Healthy,Visium,Healthy
+68,SPA75,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+69,TENX106,Kidney,,Healthy,Xenium,Healthy
+70,SPA72,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+71,SPA46,Heart,,Healthy,Spatial Transcriptomics,Healthy
+72,SPA54,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+73,NCBI506,Skin,,Diseased,Visium,Diseased_Unspecified
+74,MISC19,Lung,,Treated,Visium,Treated_Unspecified
+75,NCBI505,Skin,,Diseased,Visium,Diseased_Unspecified
+76,TENX29,Bowel,COAD,Cancer,Visium,COAD
+77,MEND18,Prostate,,Cancer,Spatial Transcriptomics,Cancer_Unspecified
+78,NCBI713,Kidney,,Healthy,Visium,Healthy
+79,ZEN37,Bowel,,Healthy,Visium,Healthy
+80,NCBI520,Skin,,Diseased,Visium,Diseased_Unspecified
+81,SPA83,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+82,MISC40,Bowel,COAD,Cancer,Visium,COAD
+83,NCBI480,Skin,,Diseased,Visium,Diseased_Unspecified
+84,MISC123,Heart,,Healthy,Visium,Healthy
+85,NCBI574,Uterus,,Diseased,Visium,Diseased_Unspecified
+86,TENX126,Pancreas,PAAD,Cancer,Xenium,PAAD
+87,MISC101,Heart,,Healthy,Visium,Healthy
+88,MISC21,Lung,,Treated,Visium,Treated_Unspecified
+89,NCBI860,Lung,,Diseased,Xenium,Diseased_Unspecified
+90,NCBI463,Skin,,Diseased,Visium,Diseased_Unspecified
+91,MISC120,Heart,,Healthy,Visium,Healthy
+92,SPA100,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+93,NCBI575,Uterus,,Healthy,Visium,Healthy
+94,NCBI855,Bladder,BLCA,Cancer,Visium,BLCA
+95,INT13,Kidney,CCRCC,Cancer,Visium,CCRCC
+96,MEND54,Kidney,,Healthy,Visium,Healthy
+97,MEND24,Prostate,,Cancer,Spatial Transcriptomics,Cancer_Unspecified
+98,SPA51,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+99,NCBI879,Lung,,Healthy,Xenium,Healthy
+100,MISC68,Bowel,COAD,Cancer,Visium,COAD
+101,SPA97,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+102,SPA66,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+103,TENX98,Breast,IDC,Cancer,Xenium,IDC
+104,MEND68,Brain,,Cancer,Visium,Cancer_Unspecified
+105,MEND63,Brain,,Cancer,Visium,Cancer_Unspecified
+106,TENX49,Bowel,COAD,Cancer,Visium,COAD
+107,TENX28,Bowel,COAD,Cancer,Visium,COAD
+108,NCBI776,Breast,IDC,Cancer,Visium,IDC
+109,SPA61,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+110,TENX41,Prostate,,Healthy,Visium,Healthy
+111,NCBI699,Kidney,,Diseased,Visium,Diseased_Unspecified
+112,MEND12,Prostate,,Cancer,Spatial Transcriptomics,Cancer_Unspecified
+113,NCBI525,Skin,,Diseased,Visium,Diseased_Unspecified
+114,MISC121,Heart,,Healthy,Visium,Healthy
+115,MISC135,Heart,,Healthy,Visium,Healthy
+116,TENX40,Prostate,PRAD,Cancer,Visium,PRAD
+117,MISC10,Brain,,Healthy,Visium,Healthy
+118,MISC11,Brain,,Healthy,Visium,Healthy
+119,NCBI474,Skin,,Diseased,Visium,Diseased_Unspecified
+120,NCBI572,Pancreas,PAAD,Cancer,Visium,PAAD
+121,SPA107,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+122,SPA144,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+123,NCBI1,Cervix,Unknown,Cancer,Visium,Unknown
+124,NCBI562,Kidney,,Diseased,Visium,Diseased_Unspecified
+125,INT14,Kidney,CCRCC,Cancer,Visium,CCRCC
+126,MISC132,Heart,,Healthy,Visium,Healthy
+127,INT20,Kidney,CCRCC,Cancer,Visium,CCRCC
+128,NCBI828,Liver,,Healthy,Visium,Healthy
+129,TENX116,Pancreas,PAAD,Cancer,Xenium,PAAD
+130,MISC111,Heart,,Healthy,Visium,Healthy
+131,NCBI495,Skin,,Diseased,Visium,Diseased_Unspecified
+132,NCBI460,Skin,,Diseased,Visium,Diseased_Unspecified
+133,NCBI832,Liver,,Diseased,Visium,Diseased_Unspecified
+134,NCBI770,Skin,CSCC,Cancer,Spatial Transcriptomics,CSCC
+135,MISC5,Brain,,Healthy,Visium,Healthy
+136,SPA143,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+137,MEND17,Prostate,,Cancer,Spatial Transcriptomics,Cancer_Unspecified
+138,MEND48,Kidney,,Healthy,Visium,Healthy
+139,SPA118,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+140,SPA41,Heart,,Healthy,Spatial Transcriptomics,Healthy
+141,MEND95,Bowel,,Healthy,Visium,Healthy
+142,ZEN45,Bowel,COAD,Cancer,Visium,COAD
+143,SPA64,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+144,SPA106,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+145,MISC60,Bowel,,Tumor,Visium,Unknown
+146,NCBI701,Kidney,,Diseased,Visium,Diseased_Unspecified
+147,TENX13,Breast,IDC,Cancer,Visium,IDC
+148,TENX91,Bowel,COAD,Cancer,Visium,COAD
+149,NCBI698,Kidney,,Diseased,Visium,Diseased_Unspecified
+150,NCBI522,Skin,,Diseased,Visium,Diseased_Unspecified
+151,NCBI601,Bladder,BLCA,Cancer,Visium,BLCA
+152,NCBI465,Skin,,Diseased,Visium,Diseased_Unspecified
+153,MISC116,Heart,,Healthy,Visium,Healthy
+154,NCBI493,Skin,,Diseased,Visium,Diseased_Unspecified
+155,SPA153,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+156,MISC67,Bowel,COAD,Cancer,Visium,COAD
+157,NCBI702,Kidney,,Diseased,Visium,Diseased_Unspecified
+158,SPA125,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+159,MISC48,Bowel,COAD,Cancer,Visium,COAD
+160,TENX155,Bowel,COAD,Cancer,Visium HD,COAD
+161,NCBI684,Lymph node,LYMPH_IDC,Cancer,Visium,LYMPH_IDC
+162,MEND45,Lung,,Healthy,Visium,Healthy
+163,MISC12,Brain,,Healthy,Visium,Healthy
+164,TENX92,Bowel,COAD,Cancer,Visium,COAD
+165,MEND52,Lung,,Diseased,Visium,Diseased_Unspecified
+166,SPA30,Heart,,Healthy,Spatial Transcriptomics,Healthy
+167,NCBI573,Uterus,,Diseased,Visium,Diseased_Unspecified
+168,NCBI487,Skin,,Diseased,Visium,Diseased_Unspecified
+169,SPA3,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+170,MISC131,Heart,,Healthy,Visium,Healthy
+171,TENX120,Liver,HCC,Cancer,Xenium,HCC
+172,NCBI537,Lung,,Treated,Visium,Treated_Unspecified
+173,MISC24,Lung,,Treated,Visium,Treated_Unspecified
+174,NCBI700,Kidney,,Diseased,Visium,Diseased_Unspecified
+175,TENX147,Bowel,COAD,Cancer,Xenium,COAD
+176,NCBI696,Kidney,,Diseased,Visium,Diseased_Unspecified
+177,TENX149,Bowel,COAD,Cancer,Xenium,COAD
+178,NCBI526,Skin,,Diseased,Visium,Diseased_Unspecified
+179,ZEN46,Bowel,COAD,Cancer,Visium,COAD
+180,MEND90,Lung,,Healthy,Visium,Healthy
+181,MISC52,Bowel,,Tumor,Visium,Unknown
+182,NCBI479,Skin,,Diseased,Visium,Diseased_Unspecified
+183,INT24,Kidney,CCRCC,Cancer,Visium,CCRCC
+184,NCBI657,Brain,,Diseased,Visium,Diseased_Unspecified
+185,MEND33,Bowel,,Healthy,Visium,Healthy
+186,SPA127,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+187,NCBI673,Liver,,Diseased,Visium,Diseased_Unspecified
+188,NCBI591,Eye,,Diseased,Visium,Diseased_Unspecified
+189,NCBI881,Lung,,Diseased,Xenium,Diseased_Unspecified
+190,MISC46,Bowel,COAD,Cancer,Visium,COAD
+191,NCBI784,Breast,IDC,Cancer,Xenium,IDC
+192,ZEN48,Bowel,READ,Cancer,Visium,READ
+193,MISC56,Bowel,COAD,Cancer,Visium,COAD
+194,SPA38,Heart,,Healthy,Spatial Transcriptomics,Healthy
+195,NCBI518,Skin,,Diseased,Visium,Diseased_Unspecified
+196,INT19,Kidney,CCRCC,Cancer,Visium,CCRCC
+197,NCBI602,Bladder,BLCA,Cancer,Visium,BLCA
+198,NCBI817,Uterus,,Diseased,Visium,Diseased_Unspecified
+199,SPA137,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+200,NCBI563,Kidney,,Diseased,Visium,Diseased_Unspecified
+201,SPA84,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+202,NCBI592,Eye,,Diseased,Visium,Diseased_Unspecified
+203,MEND23,Prostate,,Cancer,Spatial Transcriptomics,Cancer_Unspecified
+204,SPA148,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+205,SPA115,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+206,INT5,Kidney,CCRCC,Cancer,Visium,CCRCC
+207,NCBI571,Pancreas,PAAD,Cancer,Visium,PAAD
+208,NCBI813,Uterus,,Healthy,Visium,Healthy
+209,MEND59,Prostate,,Cancer,Visium,Cancer_Unspecified
+210,SPA67,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+211,NCBI576,Uterus,,Healthy,Visium,Healthy
+212,NCBI694,Kidney,,Diseased,Visium,Diseased_Unspecified
+213,SPA98,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+214,MEND85,Lung,,Healthy,Visium,Healthy
+215,SPA94,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+216,INT6,Kidney,CCRCC,Cancer,Visium,CCRCC
+217,TENX15,Heart,,Healthy,Visium,Healthy
+218,ZEN38,Bowel,COAD,Cancer,Visium,COAD
+219,MISC138,Heart,,Healthy,Visium,Healthy
+220,NCBI536,Lung,,Treated,Visium,Treated_Unspecified
+221,MISC118,Heart,,Healthy,Visium,Healthy
+222,MISC66,Bowel,COAD,Cancer,Visium,COAD
+223,MISC30,Lung,,Treated,Visium,Treated_Unspecified
+224,SPA117,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+225,MISC9,Brain,,Healthy,Visium,Healthy
+226,MISC59,Bowel,,Tumor,Visium,Unknown
+227,SPA36,Heart,,Healthy,Spatial Transcriptomics,Healthy
+228,SPA130,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+229,MEND160,Prostate,PRAD,Cancer,Visium,PRAD
+230,MISC44,Bowel,COAD,Cancer,Visium,COAD
+231,NCBI636,Brain,EPM,Cancer,Visium,EPM
+232,NCBI675,Liver,,Diseased,Visium,Diseased_Unspecified
+233,MISC71,Bowel,COAD,Cancer,Visium,COAD
+234,SPA35,Heart,,Healthy,Spatial Transcriptomics,Healthy
+235,MISC26,Lung,,Treated,Visium,Treated_Unspecified
+236,NCBI524,Skin,,Diseased,Visium,Diseased_Unspecified
+237,NCBI566,Kidney,,Diseased,Visium,Diseased_Unspecified
+238,NCBI866,Lung,,Diseased,Xenium,Diseased_Unspecified
+239,MEND14,Prostate,,Cancer,Spatial Transcriptomics,Cancer_Unspecified
+240,NCBI691,Uterus,,Diseased,Visium,Diseased_Unspecified
+241,MEND62,Prostate,,Cancer,Visium,Cancer_Unspecified
+242,NCBI534,Lung,,Healthy,Visium,Healthy
+243,MISC14,Lung,,Treated,Visium,Treated_Unspecified
+244,NCBI503,Skin,,Diseased,Visium,Diseased_Unspecified
+245,MEND158,Prostate,PRAD,Cancer,Visium,PRAD
+246,MISC65,Bowel,COAD,Cancer,Visium,COAD
+247,MISC128,Heart,,Healthy,Visium,Healthy
+248,NCBI690,Uterus,,Diseased,Visium,Diseased_Unspecified
+249,MEND64,Brain,,Cancer,Visium,Cancer_Unspecified
+250,NCBI593,Eye,,Diseased,Visium,Diseased_Unspecified
+251,NCBI876,Lung,,Healthy,Xenium,Healthy
+252,MISC41,Bowel,COAD,Cancer,Visium,COAD
+253,MEND159,Prostate,PRAD,Cancer,Visium,PRAD
+254,NCBI703,Kidney,,Diseased,Visium,Diseased_Unspecified
+255,MEND7,Prostate,,Cancer,Spatial Transcriptomics,Cancer_Unspecified
+256,MISC50,Bowel,COAD,Cancer,Visium,COAD
+257,NCBI767,Skin,CSCC,Cancer,Spatial Transcriptomics,CSCC
+258,TENX27,Brain,,Healthy,Visium,Healthy
+259,SPA63,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+260,NCBI540,Kidney,,Treated,Visium,Treated_Unspecified
+261,TENX68,Breast,IDC,Cancer,Visium,IDC
+262,INT7,Kidney,CCRCC,Cancer,Visium,CCRCC
+263,MEND3,Prostate,,Cancer,Spatial Transcriptomics,Cancer_Unspecified
+264,MISC22,Lung,,Treated,Visium,Treated_Unspecified
+265,SPA59,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+266,SPA91,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+267,NCBI882,Lung,,Diseased,Xenium,Diseased_Unspecified
+268,SPA145,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+269,NCBI873,Lung,,Diseased,Xenium,Diseased_Unspecified
+270,MISC61,Bowel,,Tumor,Visium,Unknown
+271,MISC125,Heart,,Healthy,Visium,Healthy
+272,NCBI816,Uterus,,Diseased,Visium,Diseased_Unspecified
+273,TENX121,Liver,,Healthy,Xenium,Healthy
+274,MEND89,Lung,,Healthy,Visium,Healthy
+275,NCBI693,Kidney,,Diseased,Visium,Diseased_Unspecified
+276,NCBI570,Pancreas,PAAD,Cancer,Visium,PAAD
+277,TENX148,Bowel,COAD,Cancer,Xenium,COAD
+278,INT2,Kidney,CCRCC,Cancer,Visium,CCRCC
+279,SPA89,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+280,SPA136,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+281,MEND41,Lung,,Healthy,Visium,Healthy
+282,NCBI630,Brain,EPM,Cancer,Visium,EPM
+283,NCBI471,Skin,,Diseased,Visium,Diseased_Unspecified
+284,SPA139,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+285,MISC119,Heart,,Healthy,Visium,Healthy
+286,MEND93,Bowel,,Healthy,Visium,Healthy
+287,SPA147,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+288,MISC142,Heart,,Healthy,Visium,Healthy
+289,TENX65,Ovary,HGSOC,Cancer,Visium,HGSOC
+290,MEND88,Lung,,Healthy,Visium,Healthy
+291,SPA31,Heart,,Healthy,Spatial Transcriptomics,Healthy
+292,MEND61,Prostate,,Cancer,Visium,Cancer_Unspecified
+293,TENX134,Lymphoid,ALL,Cancer,Xenium,ALL
+294,MEND66,Brain,,Cancer,Visium,Cancer_Unspecified
+295,NCBI653,Brain,,Diseased,Visium,Diseased_Unspecified
+296,TENX153,Bowel,,Healthy,Visium HD,Healthy
+297,MEND156,Prostate,PRAD,Cancer,Visium,PRAD
+298,NCBI594,Eye,,Healthy,Visium,Healthy
+299,MISC141,Heart,,Healthy,Visium,Healthy
+300,SPA53,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+301,NCBI856,Lung,,Diseased,Xenium,Diseased_Unspecified
+302,SPA32,Heart,,Healthy,Spatial Transcriptomics,Healthy
+303,MISC136,Heart,,Healthy,Visium,Healthy
+304,MEND15,Prostate,,Cancer,Spatial Transcriptomics,Cancer_Unspecified
+305,NCBI568,Kidney,,Healthy,Visium,Healthy
+306,INT22,Kidney,CCRCC,Cancer,Visium,CCRCC
+307,MISC13,Lung,,Treated,Visium,Treated_Unspecified
+308,SPA95,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+309,SPA122,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+310,MISC139,Heart,,Healthy,Visium,Healthy
+311,SPA101,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+312,MEND38,Skin,,Cancer,Visium,Cancer_Unspecified
+313,NCBI628,Brain,EPM,Cancer,Visium,EPM
+314,NCBI632,Brain,EPM,Cancer,Visium,EPM
+315,MEND96,Bowel,,Healthy,Visium,Healthy
+316,INT4,Kidney,CCRCC,Cancer,Visium,CCRCC
+317,MISC113,Heart,,Healthy,Visium,Healthy
+318,NCBI2,Cervix,Unknown,Cancer,Visium,Unknown
+319,NCBI764,Skin,CSCC,Cancer,Spatial Transcriptomics,CSCC
+320,MISC38,Bowel,COAD,Cancer,Visium,COAD
+321,MEND13,Prostate,,Cancer,Spatial Transcriptomics,Cancer_Unspecified
+322,TENX30,Brain,GBM,Cancer,Visium,GBM
+323,TENX56,Brain,,Healthy,Visium,Healthy
+324,TENX143,Lymphoid,,Diseased,Xenium,Diseased_Unspecified
+325,MISC1,Brain,,Healthy,Visium,Healthy
+326,NCBI461,Skin,,Diseased,Visium,Diseased_Unspecified
+327,NCBI489,Skin,,Diseased,Visium,Diseased_Unspecified
+328,ZEN43,Bowel,COAD,Cancer,Visium,COAD
+329,MISC69,Bowel,COAD,Cancer,Visium,COAD
+330,MEND6,Prostate,,Cancer,Spatial Transcriptomics,Cancer_Unspecified
+331,SPA62,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+332,NCBI490,Skin,,Diseased,Visium,Diseased_Unspecified
+333,MISC70,Bowel,COAD,Cancer,Visium,COAD
+334,NCBI826,Liver,,Diseased,Visium,Diseased_Unspecified
+335,NCBI639,Brain,EPM,Cancer,Visium,EPM
+336,SPA70,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+337,NCBI641,Brain,EPM,Cancer,Visium,EPM
+338,MISC20,Lung,,Treated,Visium,Treated_Unspecified
+339,TENX158,Skin,SKCM,Cancer,Xenium,SKCM
+340,NCBI643,Liver,HCC,Cancer,Visium,HCC
+341,NCBI481,Skin,,Diseased,Visium,Diseased_Unspecified
+342,TENX154,Bowel,COAD,Cancer,Visium HD,COAD
+343,INT8,Kidney,CCRCC,Cancer,Visium,CCRCC
+344,MEND87,Lung,,Healthy,Visium,Healthy
+345,NCBI695,Kidney,,Diseased,Visium,Diseased_Unspecified
+346,SPA81,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+347,MISC130,Heart,,Healthy,Visium,Healthy
+348,MEND5,Prostate,,Cancer,Spatial Transcriptomics,Cancer_Unspecified
+349,SPA109,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+350,TENX156,Bowel,COAD,Cancer,Visium HD,COAD
+351,INT23,Kidney,CCRCC,Cancer,Visium,CCRCC
+352,SPA120,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+353,NCBI521,Skin,,Diseased,Visium,Diseased_Unspecified
+354,MISC133,Heart,,Healthy,Visium,Healthy
+355,NCBI515,Skin,,Diseased,Visium,Diseased_Unspecified
+356,INT16,Kidney,CCRCC,Cancer,Visium,CCRCC
+357,MEND40,Skin,,Cancer,Visium,Cancer_Unspecified
+358,TENX89,Bowel,COAD,Cancer,Visium,COAD
+359,NCBI485,Skin,,Diseased,Visium,Diseased_Unspecified
+360,NCBI785,Breast,IDC,Cancer,Xenium,IDC
+361,MISC109,Heart,,Healthy,Visium,Healthy
+362,NCBI656,Brain,,Diseased,Visium,Diseased_Unspecified
+363,NCBI814,Uterus,,Diseased,Visium,Diseased_Unspecified
+364,TENX90,Bowel,COAD,Cancer,Visium,COAD
+365,MISC57,Bowel,COAD,Cancer,Visium,COAD
+366,MISC127,Heart,,Healthy,Visium,Healthy
+367,TENX51,Ovary,SOC,Cancer,Visium,SOC
+368,SPA47,Heart,,Healthy,Spatial Transcriptomics,Healthy
+369,TENX96,Breast,ILC,Cancer,Xenium,ILC
+370,NCBI498,Skin,,Diseased,Visium,Diseased_Unspecified
+371,TENX53,Breast,IDC,Cancer,Visium,IDC
+372,MISC114,Heart,,Healthy,Visium,Healthy
+373,MISC49,Bowel,COAD,Cancer,Visium,COAD
+374,NCBI867,Lung,,Diseased,Xenium,Diseased_Unspecified
+375,NCBI476,Skin,,Diseased,Visium,Diseased_Unspecified
+376,MISC35,Bowel,COAD,Cancer,Visium,COAD
+377,SPA74,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+378,NCBI829,Liver,,Healthy,Visium,Healthy
+379,SPA96,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+380,MEND37,Skin,,Cancer,Visium,Cancer_Unspecified
+381,MISC7,Brain,,Healthy,Visium,Healthy
+382,NCBI470,Skin,,Diseased,Visium,Diseased_Unspecified
+383,NCBI516,Skin,,Diseased,Visium,Diseased_Unspecified
+384,TENX123,Skin,,Healthy,Xenium,Healthy
+385,MISC64,Bowel,COAD,Cancer,Visium,COAD
+386,MEND9,Prostate,,Cancer,Spatial Transcriptomics,Cancer_Unspecified
+387,SPA71,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+388,NCBI875,Lung,,Healthy,Xenium,Healthy
+389,INT17,Kidney,CCRCC,Cancer,Visium,CCRCC
+390,SPA42,Heart,,Healthy,Spatial Transcriptomics,Healthy
+391,MEND86,Lung,,Healthy,Visium,Healthy
+392,MEND92,Bowel,,Healthy,Visium,Healthy
+393,SPA82,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+394,MISC124,Heart,,Healthy,Visium,Healthy
+395,INT25,Prostate,PRAD,Cancer,Visium,PRAD
+396,TENX70,Bowel,COADREAD,Cancer,Visium,COADREAD
+397,TENX125,Lymphoid,,Diseased,Xenium,Diseased_Unspecified
+398,NCBI462,Skin,,Diseased,Visium,Diseased_Unspecified
+399,SPA58,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+400,ZEN49,Bowel,READ,Cancer,Visium,READ
+401,NCBI704,Kidney,,Diseased,Visium,Diseased_Unspecified
+402,MISC112,Heart,,Healthy,Visium,Healthy
+403,MISC36,Bowel,COAD,Cancer,Visium,COAD
+404,INT27,Prostate,PRAD,Cancer,Visium,PRAD
+405,ZEN41,Bowel,,Healthy,Visium,Healthy
+406,SPA138,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+407,MISC103,Heart,,Healthy,Visium,Healthy
+408,SPA55,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+409,MISC108,Heart,,Healthy,Visium,Healthy
+410,NCBI509,Skin,,Diseased,Visium,Diseased_Unspecified
+411,TENX50,Cervix,CESC,Cancer,Visium,CESC
+412,SPA34,Heart,,Healthy,Spatial Transcriptomics,Healthy
+413,TENX133,Lymphoid,,Healthy,Xenium,Healthy
+414,NCBI635,Brain,EPM,Cancer,Visium,EPM
+415,SPA90,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+416,NCBI565,Kidney,,Diseased,Visium,Diseased_Unspecified
+417,NCBI475,Skin,,Diseased,Visium,Diseased_Unspecified
+418,NCBI762,Skin,CSCC,Cancer,Spatial Transcriptomics,CSCC
+419,SPA56,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+420,NCBI496,Skin,,Diseased,Visium,Diseased_Unspecified
+421,ZEN44,Bowel,COAD,Cancer,Visium,COAD
+422,NCBI478,Skin,,Diseased,Visium,Diseased_Unspecified
+423,SPA129,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+424,SPA124,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+425,NCBI482,Skin,,Diseased,Visium,Diseased_Unspecified
+426,NCBI765,Skin,CSCC,Cancer,Spatial Transcriptomics,CSCC
+427,NCBI831,Liver,,Diseased,Visium,Diseased_Unspecified
+428,MEND157,Prostate,PRAD,Cancer,Visium,PRAD
+429,TENX16,Lymph node,,Healthy,Visium,Healthy
+430,TENX14,Breast,IDC,Cancer,Visium,IDC
+431,SPA119,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+432,MISC17,Lung,,Treated,Visium,Treated_Unspecified
+433,MEND19,Prostate,,Cancer,Spatial Transcriptomics,Cancer_Unspecified
+434,NCBI600,Bladder,BLCA,Cancer,Visium,BLCA
+435,NCBI763,Skin,CSCC,Cancer,Spatial Transcriptomics,CSCC
+436,NCBI864,Lung,,Diseased,Xenium,Diseased_Unspecified
+437,MEND22,Prostate,,Cancer,Spatial Transcriptomics,Cancer_Unspecified
+438,NCBI830,Liver,,Healthy,Visium,Healthy
+439,SPA73,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+440,MISC33,Bowel,COAD,Cancer,Visium,COAD
+441,NCBI484,Skin,,Diseased,Visium,Diseased_Unspecified
+442,SPA39,Heart,,Healthy,Spatial Transcriptomics,Healthy
+443,MISC115,Heart,,Healthy,Visium,Healthy
+444,NCBI820,Uterus,,Diseased,Visium,Diseased_Unspecified
+445,SPA85,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+446,SPA68,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+447,MISC55,Bowel,,Tumor,Visium,Unknown
+448,MISC62,Bowel,COAD,Cancer,Visium,COAD
+449,MISC23,Lung,,Treated,Visium,Treated_Unspecified
+450,TENX97,Breast,IDC,Cancer,Xenium,IDC
+451,MISC6,Brain,,Healthy,Visium,Healthy
+452,SPA80,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+453,SPA110,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+454,NCBI884,Lung,,Healthy,Xenium,Healthy
+455,NCBI483,Skin,,Diseased,Visium,Diseased_Unspecified
+456,NCBI697,Kidney,,Diseased,Visium,Diseased_Unspecified
+457,INT35,Prostate,PRAD,Cancer,Visium,PRAD
+458,MISC126,Heart,,Healthy,Visium,Healthy
+459,TENX139,Bowel,COADREAD,Cancer,Xenium,COADREAD
+460,NCBI707,Kidney,,Diseased,Visium,Diseased_Unspecified
+461,SPA0,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+462,NCBI710,Kidney,,Healthy,Visium,Healthy
+463,SPA45,Heart,,Healthy,Spatial Transcriptomics,Healthy
+464,MISC15,Lung,,Treated,Visium,Treated_Unspecified
+465,SPA99,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+466,MEND51,Lung,,Healthy,Visium,Healthy
+467,NCBI535,Lung,,Treated,Visium,Treated_Unspecified
+468,NCBI858,Lung,,Diseased,Xenium,Diseased_Unspecified
+469,SPA134,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+470,MEND47,Lung,,Healthy,Visium,Healthy
+471,NCBI769,Skin,CSCC,Cancer,Spatial Transcriptomics,CSCC
+472,SPA88,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+473,MISC58,Bowel,COAD,Cancer,Visium,COAD
+474,NCBI603,Bladder,BLCA,Cancer,Visium,BLCA
+475,TENX23,Breast,ILC,Cancer,Visium,ILC
+476,SPA133,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+477,INT18,Kidney,CCRCC,Cancer,Visium,CCRCC
+478,NCBI508,Skin,,Diseased,Visium,Diseased_Unspecified
+479,MEND21,Prostate,,Cancer,Spatial Transcriptomics,Cancer_Unspecified
+480,SPA86,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+481,SPA116,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+482,SPA79,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+483,SPA60,Breast,IDC,Cancer,Spatial Transcriptomics,IDC
+484,MISC39,Bowel,COAD,Cancer,Visium,COAD
+485,MISC129,Heart,,Healthy,Visium,Healthy
+486,MISC140,Heart,,Healthy,Visium,Healthy
+487,MEND154,Prostate,PRAD,Cancer,Visium,PRAD
+488,NCBI507,Skin,,Diseased,Visium,Diseased_Unspecified
+489,NCBI655,Brain,,Diseased,Visium,Diseased_Unspecified
+490,TENX152,Bowel,COAD,Cancer,Visium,COAD
+491,NCBI640,Brain,EPM,Cancer,Visium,EPM
+492,TENX157,Prostate,PRAD,Cancer,Xenium,PRAD
+493,TENX144,Pancreas,,Healthy,Visium HD,Healthy
+494,TENX142,Ovary,HGSOC,Cancer,Xenium,HGSOC
+495,TENX138,Brain,GBM,Cancer,Xenium,GBM
+496,TENX132,Bone,,Healthy,Xenium,Healthy
+497,TENX119,Heart,,Healthy,Xenium,Healthy
