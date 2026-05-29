@@ -7,6 +7,9 @@ HistoPrism is an efficient transformer architecture that predicts spatial gene e
 
 - **Gene Pathway Coherence (GPC) Benchmark**: We move beyond standard High-Variance Gene (HVG) metrics, which neglect biologically critical low-variance genes due to skewed distributions. We propose GPC, a novel framework that evaluates performance on functional biological pathways, demonstrating that our model recovers coherent, clinically relevant transcriptomic patterns across the full gene spectrum.
 
+> 💡 **Dealing with unseen biological contexts or cross-species data?** 
+> Check out our sister project, [MoLF](https://github.com/susuhu/MoLF). While HistoPrism delivers peak high-throughput precision on standardized clinical benchmarks, MoLF uses generative flow to model full distributions, making it highly robust to domain shifts and ideal for exploratory research.
+
 ![architecture](figures/HistoPrism_no_PE.png)
 
 
